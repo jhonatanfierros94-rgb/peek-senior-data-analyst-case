@@ -109,7 +109,7 @@ Comparison of the most recent 12 mature months with the preceding 12 months:
 | Metric | Previous 12 months | Recent 12 months | Change |
 |---|---:|---:|---:|
 | Revenue | $485,657.86 | $782,974.30 | +61.2% |
-| Returning revenue share | 11.90% | 15.07% | +3.17 pp |
+| Avg. monthly returning revenue share | 11.90% | 15.07% | +3.17 pp |
 | 90-day repeat rate | 3.26% | 5.05% | +1.79 pp |
 | 90-day churn | 96.74% | 94.95% | -1.79 pp |
 
