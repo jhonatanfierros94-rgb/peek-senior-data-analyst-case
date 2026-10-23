@@ -12,7 +12,7 @@ Senior Data Analyst case study using the public TheLook Ecommerce dataset, focus
 
 **SQL:** [`/sql/part1_queries.sql`](./sql/part1_queries.sql)
 
-**Dashboard:** [Looker Studio Dashboard](PASTE_LOOKER_STUDIO_LINK_HERE)
+**Dashboard:** [Looker Studio Dashboard](https://datastudio.google.com/s/hyOixQoW8MY)
 
 ---
 
@@ -96,7 +96,7 @@ The Looker Studio dashboard contains three views:
 2. **Retention mix:** New vs. returning revenue alongside 90-day churn
 3. **Decision view:** Recent 12 mature months vs. the preceding 12 months
 
-[Open the Looker Studio dashboard](PASTE_LOOKER_STUDIO_LINK_HERE)
+[Open the Looker Studio dashboard](https://datastudio.google.com/s/hyOixQoW8MY)
 
 ---
 
