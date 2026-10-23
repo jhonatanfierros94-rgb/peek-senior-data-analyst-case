@@ -8,7 +8,7 @@ The dashboard presents the three required analytical views:
 2. New vs. returning revenue mix alongside 90-day churn
 3. Recent 12 mature months vs. the preceding 12 months
 
-**Dashboard:** [Open Looker Studio Dashboard]([https://datastudio.google.com/s/hyOixQoW8MY](https://datastudio.google.com/reporting/53d6cdce-cd25-44c7-a218-c10a6c7c38cb))
+**Dashboard:** [Open Looker Studio Dashboard](https://datastudio.google.com/reporting/53d6cdce-cd25-44c7-a218-c10a6c7c38cb)
 
 ### Analysis window
 
