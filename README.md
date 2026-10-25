@@ -294,14 +294,18 @@ My preferred use of AI in analytics is to accelerate reasoning, review, and iter
 
 ---
 
-## Out of Scope / Follow-up Analysis
+## Scoping Decisions and Follow-up Analysis
 
-Given the case-study timebox, I prioritized the required business-health and retention analyses.
+Given the case-study timebox, I prioritized the required metric foundation, retention/churn analysis, three decision-oriented visuals, and a reproducible analytical pipeline.
 
-Potential follow-up work includes:
+I intentionally kept the analysis focused rather than adding additional segmentation that was not necessary to answer the two selected business questions.
 
-- cohort retention analysis,
-- churn and repeat behavior by acquisition source,
-- country-level retention differences,
-- purchase-level or survival-based retention modeling,
-- experimental measurement of the proposed first-to-second-purchase program.
+### What I would add with more time
+
+- **Cohort retention analysis:** Compare repeat behavior by first-purchase cohort to separate lifecycle effects from overall growth trends.
+- **Acquisition-quality segmentation:** Break 90-day repeat and returning revenue down by traffic source to identify which acquisition channels generate the highest-quality customers.
+- **Customer / market segmentation:** Explore country, category, or other meaningful segments to determine whether the aggregate retention trend is consistent across the business.
+- **More granular retention modeling:** Refine the month-end churn definition using purchase-level anchors, customer purchase cadence, or survival analysis.
+- **Experiment design:** Define the sample size, treatment/control structure, and guardrails for the proposed first-to-second-purchase program.
+
+The optional cohort-retention stretch was therefore left out of the submitted scope in favor of deeper validation of the required metrics and explicit handling of data-quality and right-censoring issues.
