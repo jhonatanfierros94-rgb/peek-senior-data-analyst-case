@@ -243,6 +243,9 @@ I would not deploy or would pause the AI layer if it fails to materially outperf
 ## 3.2 How I Used AI During the Challenge
 
 I used LLM's-based reasoning and review assistant during the challenge, rather than as the source of analytical truth.
+Some examples:
+- **ChatGPT** was used primarily as a reasoning and review assistant to challenge metric definitions, surface edge cases, suggest validation approaches, and improve the clarity of the analysis and documentation.
+- **GitHub Copilot** was used as an in-editor code assistant to support SQL/code completion, syntax review, and small implementation refinements while working on the repository.
 
 I used it primarily to challenge metric definitions, surface edge cases, suggest validation approaches, and improve the clarity of SQL and documentation. I retained ownership of the SQL logic, business definitions, analytical decisions, and final conclusions.
 
@@ -264,7 +267,7 @@ Instead, I used independently testable identities and reconciliations against th
 
 The final pipeline produced zero reconciliation errors for these checks.
 
-I also ran independent BigQuery reconciliation queries and spot-checked edge cases against the underlying source tables rather than assuming that SQL was correct simply because it executed successfully.
+Suggestions from both tools were validated through independent BigQuery reconciliation queries, business-logic checks, and spot checks against the underlying source tables rather than assuming that SQL was correct simply because it executed successfully.
 
 ### One Thing AI Got Wrong
 
