@@ -242,11 +242,9 @@ I would not deploy or would pause the AI layer if it fails to materially outperf
 
 ## 3.2 How I Used AI During the Challenge
 
-I used AI primarily as a **reasoning and review assistant**, not as the source of analytical truth.
+I used LLM's-based reasoning and review assistant during the challenge, rather than as the source of analytical truth.
 
-I retained ownership of the metric definitions, SQL logic, analytical choices, and final conclusions.
-
-AI was most useful for challenging assumptions, identifying edge cases, suggesting validation approaches, and improving documentation.
+I used it primarily to challenge metric definitions, surface edge cases, suggest validation approaches, and improve the clarity of SQL and documentation. I retained ownership of the SQL logic, business definitions, analytical decisions, and final conclusions.
 
 ### Representative Prompt
 
@@ -264,7 +262,9 @@ Instead, I used independently testable identities and reconciliations against th
 - the latest mature month must match the 90-day observation window
 - monthly commerce totals must reconcile to the completed-order-item model
 
-The final pipeline produced **zero reconciliation errors** for these checks.
+The final pipeline produced zero reconciliation errors for these checks.
+
+I also ran independent BigQuery reconciliation queries and spot-checked edge cases against the underlying source tables rather than assuming that SQL was correct simply because it executed successfully.
 
 ### One Thing AI Got Wrong
 
